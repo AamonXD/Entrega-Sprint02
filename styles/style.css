@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(https://previews.123rf.com/images/xeniadesign/xeniadesign1802/xeniadesign180200017/94591861-abstract-tech-design-background-engineering-technology-wallpaper-made-with-lines-dots-circles-futuri.jpg);
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex{
+    flex: 1;
+    min: width 250px;
+}
+
+.in-flex:first-child {
+    flex: 2;
+    padding: 25px;
+    background-color: transparent;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.in-flex div{
+    padding: 25px;
+    background-color:darkkhaki;
+    margin: 20px;
+}
+
+.calculadora{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(236, 236, 236);
+    width: 340px;
+    border-radius: 25px;
+}
+.calculadora td button{
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 25px;
+    border-color: transparent;
+    background-color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.116);
+}
+
+.calculadora #reset{
+    background-color: rgb(255, 187, 0);
+    color: white;
+}
+
+.calculadora #igual{
+    background-color: rgb(75, 75, 255);
+    color: white;
+}
+
+.calculadora #aproximacion{
+    background-color: rgb(255, 254, 197);
+}
+.calculadora #modulo{
+    background-color: rgb(255, 254, 197);
+}
+
+.calculadora #division {
+    background-color: rgb(215, 220, 255);
+    color: blue;
+}
+
+.calculadora #multiplicacion {
+    background-color: rgb(215, 220, 255);
+    color: blue;
+}
+
+.calculadora #resta {
+    background-color: rgb(215, 220, 255);
+    color: blue;
+}
+
+.calculadora #suma {
+    background-color: rgb(215, 220, 255);
+    color: blue;
+}
+
+.calculadora #igual {
+    background-color: rgb(215, 220, 255);
+    color: blue;
+}
+
+#resultado{
+    display: block;
+    text-align: right;
+    font-size: 40px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    background-color: lightgrey;
+    border: 10px solid black;
+    border-radius: 25px;
+    overflow-y: scroll;
+}
+#resuelto{
+    text-align: right;
+    background-color: rgb(236, 236, 236);
+    border: 10px solid rgb(236, 236, 236);
+    height: 70px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.calculadora button{
+    transition: 0.5s ease;
+}
+.calculadora button:active{
+    background-color: rgb(158, 155, 155);
+}
